@@ -1,3 +1,18 @@
+
+/*
+ * The circuit:
+ * * Module HR-SC04 (four pins) or PING))) (and other with
+ *   three pins), attached to digital pins as follows:
+ * ---------------------    ---------------------
+ * | HC-SC04 | Arduino |    | 3 pins  | Arduino |
+ * ---------------------    ---------------------
+ * |   Vcc   |   5V    |    |   Vcc   |   5V    |
+ * |   Trig  |   7    | OR |   SIG   |   13    |
+ * |   Echo  |   8    |    |   Gnd   |   GND   |
+ |   Gnd   |   GND   |    ---------------------
+  ---------------------
+ 
+*/
 /* This simple project describes how to make an ultrasonic alarm system using 
 LED, Ultasonic Sensor(HC-SR04) and a buzzer.*/ 
 
